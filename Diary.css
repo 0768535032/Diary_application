@@ -1,0 +1,119 @@
+body {
+    background: #04A1BF;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#instruction {
+    font-weight: 600;
+    color: #FFCD5D;
+    margin-top: 10px;
+}
+
+.task-entry input, .task-entry button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.task-entry input[type="text"] {
+    width: 40%;
+}
+
+.task-entry input[type="date"], .task-entry input[type="time"], .task-entry input[type="number"] {
+    width: 20%;
+}
+
+#addTaskButton {
+    background-color: #025F70;
+    color: #04A1BF;
+    transition: all 0.75s ease;
+    font-weight: normal;
+}
+
+#addTaskButton:hover {
+    background-color: #02798F;
+    color: #FFCD5D;
+}
+
+.task-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    background-color: #4EB9CD;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task-list li .task-details {
+    font-size: 0.9em;
+    color: #FFCD5D;
+}
+
+.diary {
+    margin-top: 30px;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#saveDiary {
+    margin-top: 10px;
+    background-color: #025F70;
+    color: #04A1BF;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    transition: all 0.75s ease;
+    font-weight: normal;
+}
+
+#saveDiary:hover {
+    background-color: #02798F;
+    color: #FFCD5D;
+}
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #025F70;
+    font-weight: 800;
+}
+
+.done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
+
+.delete {
+    display: none;
+}

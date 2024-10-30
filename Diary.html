@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Calendar and Diary</title>
+    <link rel="stylesheet" href="Diary.css">
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1>Work To-Dos</h1>
+            <p id="instruction">Add tasks with a scheduled date, time, and duration.</p>
+        </div>
+
+        <!-- Task Entry Section -->
+        <div class="task-entry">
+            <input id="taskInput" type="text" placeholder="New task..." maxlength="50">
+            <input id="taskDate" type="date">
+            <input id="taskTime" type="time">
+            <input id="taskDuration" type="number" placeholder="Duration (hours)" min="1" max="12">
+            <button id="addTaskButton">Add Task</button>
+        </div>
+
+        <!-- Task List Section -->
+        <div class="task-list">
+            <ul id="taskList"></ul>
+        </div>
+
+        <!-- Diary Section -->
+        <div class="diary">
+            <h2>Diary</h2>
+            <textarea id="diaryEntry" placeholder="Write your notes here..."></textarea>
+            <button id="saveDiary">Save Diary Entry</button>
+        </div>
+    </div>
+
+    <script src="Diary.js"></script>
+</body>
+</html>
